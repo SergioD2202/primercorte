@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+}
+
+.container {
+  margin: 2vw;
+  padding: 1vw;
+  color: purple;
+  background-color: #1f1b24;
+}
+
+.container h2 {
+  text-align: center;
+  color: indigo;
+}

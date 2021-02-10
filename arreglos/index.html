@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Arreglos</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+
+        <div class="container">
+            <div class="box"><h1 class="center-text">Ingreso de empleados</h1></div>
+        </div>
+
+        <div class="container">
+            <div class="box"><h2>Ingrese los datos del empleado</h2></div>
+            <br>
+            <form class="grid" enctype="multipart/form-data" id="myForm">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" value="" id="nombre" name="nombre">
+                </div>
+
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" value="" id="apellido" name="apellido">
+                </div>
+
+                <div>
+                    <label for="cedula">Cedula:</label>
+                    <input type="number" id="cedula" value="" min="1" name="cedula">
+                </div>
+
+                <div>
+                    <label for="sueldo">Sueldo:</label>
+                    <input type="number" id="sueldo" value="" min="0" step="0.01" name="sueldo">
+                </div>
+
+                <div>
+                    <label for="dep">Departamento:</label>
+                    <input type="text" id="dep" value="" name="dep">
+                </div>
+
+                <div>
+                    <label for="lg">Lugar de trabajo:</label>
+                    <input type="text" id="lg" value="" name="lg">
+                </div>
+
+                <div>
+                    <input type="button" value="Enviar" onclick="sendData()">
+                </div>
+            </form>
+
+        </div>
+
+        <div class="container" id="formData">
+
+        </div>
+
+        
+
+    
+    </body>
+</html>
